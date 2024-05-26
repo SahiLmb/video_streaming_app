@@ -1,3 +1,4 @@
+import ListCall from '@/components/ListCall'
 import React from 'react'
 
 const Upcoming = () => {
@@ -6,6 +7,8 @@ const Upcoming = () => {
     <h1 className="text-3xl font-bold">
         Upcoming
     </h1>
+
+    <ListCall type="upcoming" />
 </section>
   )
 }
